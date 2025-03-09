@@ -9,7 +9,8 @@ class SKLearnVectorStore:
         self.vector_store = None
         self.data = []
 
-    def load_data(self, file_path="data.jsonl"):
+    def load_data(self, file_path = r"C:\Users\zakar\OneDrive\Desktop\Orange_rag\Rag\data.jsonl"
+):
         """Charge les données JSONL et les indexe."""
         with open(file_path, "r", encoding="utf-8") as f:
             for line in f:
