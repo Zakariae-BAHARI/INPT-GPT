@@ -1,1 +1,1 @@
-# Orange_RAG
+# INPT-GPT
